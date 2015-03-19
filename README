@@ -3,3 +3,39 @@ Congress App: Display Sunlight Congress API congressional data + map. Future pla
 Ver: 0.0.1
 Nov 10, 2014
 ==========
+
+To Do:
+
+Mapping application:
+    Layer selection
+        base map layer
+        congressional district layer
+        Demographic layers
+            household values
+            diversity
+            income
+            ???
+    Behavior
+        on click OR enter of data:
+            zoom to state or congressional district and offer a choice of representative
+            Place a graphics overlay over the rest of the state/country to focus on that area
+            data about that representative becomes available
+
+
+
+Congressional data:
+    Sunlight foundation:
+        Congress API
+        Influence Explorer
+        Real-Time Fed Campaign finance api?
+     Other data:
+        Approval ratings?
+        voter turnout?
+
+
+
+Twitter data:
+    Query by representative
+    display tweets by the representative
+    display tweets about the representative?
+    Sentiment analysis?
