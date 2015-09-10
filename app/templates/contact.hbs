@@ -1,7 +1,8 @@
 <ul>
     {{#each legislator in model}}
         <li><span class="legislator-name">{{legislator.first_name}} {{legislator.last_name}}</span>
-            <br> Contact: <a href={{legislator.contact_form}}>{{legislator.contact_form}}</a>
+            <br> Contact: <a href={{legislator.contact_form}}>{{legislator.contact_form}}</a><br>
+            Party: {{legislator.party}}, {{legislator.state_name}}
         </li>
     {{/each}}
 </ul>
