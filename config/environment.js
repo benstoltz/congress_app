@@ -35,6 +35,7 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    ENV.CongressAPIKey = "9f64292279cc4c40aea72946979597a2";
   }
 
   if (environment === 'test') {
